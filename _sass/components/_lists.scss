@@ -1,0 +1,95 @@
+/// Lists
+.list-container {
+  max-width:1180px;
+}
+
+.list-student-picture {
+  width: 100%;
+}
+
+.student-block {
+  float:left;
+  height: 450px;
+  margin-bottom:100px;
+  padding-top:50px;
+}
+
+.name {
+  color: $blue;
+  transition: 0.3s;
+}
+
+.richting {
+  color:$blue;
+}
+
+.name:hover {
+    color:$red;
+    transition: 0.3s;
+}
+
+.student-link {
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1180px) {
+  .row .col.s3 {
+    width:33%;
+  }
+  .student-block {
+    height: 600px;
+  } 
+}
+
+@media screen and (max-width: 993px) {
+
+  .student-block {
+    height: 500px;
+  } 
+}
+
+@media screen and (max-width: 900px) {
+
+  .student-block {
+    height: 440px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .row .col.s3 {
+    width:50%;
+  }
+
+  .student-block {
+    height: 580px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  
+  .student-block {
+    height: 540px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .student-block {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  .student-block {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+
+  .student-block {
+    height: 240px;
+  }
+}

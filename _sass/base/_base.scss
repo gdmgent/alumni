@@ -1,0 +1,30 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+} 
+
+body {
+  background-color: white;
+}
+
+p {
+  margin:0;
+}
+
+.search-helper {
+  margin-top: 100px;
+  color:$blue;
+  margin-bottom:0;
+}
+
+.title {
+  color:$blue;
+  width:503px;
+  margin: auto;
+}

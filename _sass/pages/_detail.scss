@@ -1,0 +1,193 @@
+/// Detailpage
+.detail-container {
+  margin-top: 120px;
+}
+
+a.back {
+  float: right;
+  color:$blue;
+  transition: 0.3s;
+}
+
+a.back:hover {
+  cursor: pointer;
+  color: $red;
+  transition: 0.3s;
+}
+
+.tags {
+  color: $blue;
+  padding: 1px 5px ;
+  margin-left:14px;
+}
+
+li > a {
+  color:white;
+}
+
+.left-container {
+  margin-left: 250px;
+  margin-top: -450px;
+  width:100%;
+}
+
+.info {
+  text-transform: none;
+  font-weight: lighter;
+  width: auto;
+}
+
+.left-container li {
+  width: 49%;
+  display: inline-block;
+}
+
+.left-container, .right-container {
+  width: 450px;
+  z-index:2;
+}
+
+.student-picture{
+  position: relative;
+  left:-130px;
+  display: block;
+  margin-top: 20px; 
+  width: 330px;
+  height: auto;  
+}
+
+.card-container {
+  height: 500px; 
+  background-color: $red;
+}
+
+#firstname-mobile, #lastname-mobile {
+  display:none;
+}
+
+#lastname {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1400px) {
+
+  .container .row.detail-container, .tag-container {
+    margin:auto;
+    width: 80%;
+    margin-top:100px;
+  }
+
+  .tag-container {
+    margin-top:0;
+  }
+}
+@media screen and (max-width: 1180px) {
+  
+  .left-container {
+    width:auto;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  
+  .container .row.detail-container, .tag-container {
+    width:90%;
+    margin-left:100px;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  
+  .student-picture{
+    margin-left: 50px;
+    height: auto;
+  }
+
+  .left-container {
+    margin-left:280px;
+    width:auto;
+  }
+}
+
+@media screen and (max-width: 950px) {
+
+  .container .row.detail-container, .tag-container {
+    margin-left:50px;
+  }
+
+  .left-container li {
+    width: 100%;
+    display: block;
+  }
+
+  .student-picture{
+    margin-left: 60px;
+    height: auto;
+  }
+
+  .card-container {
+    height: 550px;
+  } 
+
+  .left-container {
+    margin-top: -450px;
+    margin-left:300px;
+  }
+
+  .student-link {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  
+  .card-container {
+    height: auto;
+  } 
+
+  .student-picture {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    left:0; 
+    position: static;
+  }
+
+  .left-container{
+    margin-top:50px;
+    margin-left: 0px;
+    padding-bottom: 30px;
+  }
+
+  #firstname, #lastname {
+    display: none;
+  }
+
+  #firstname-mobile, #lastname-mobile {
+    display:block;
+  }
+  
+  #firstname-mobile {
+    z-index: 0;
+    position:relative
+  }
+
+  #lastname-mobile {
+    margin-bottom: 30px;
+  }
+
+  .tags {
+    display: block;
+    width: 100%;
+  }
+
+  .container .row.detail-container, .tag-container {
+    margin:auto;
+    margin-top:100px;
+  }
+
+  .tag-container {
+    margin-top:0;
+    margin-right: 45px;
+  }
+}
