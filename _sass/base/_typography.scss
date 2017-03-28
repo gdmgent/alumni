@@ -44,9 +44,7 @@ li > a,
 
 a.student-link:hover, 
 a.back:hover, 
-.name, 
-#firstname, 
-#lastname {
+.name {
   text-decoration: underline;
 }
 
@@ -101,6 +99,14 @@ a.back {
 
 .name {
     font-size: 22px;
+}
+
+.mailtostudent{
+    font-size: 14px;
+    text-transform: lowercase;
+    text-decoration: none;
+    font-weight: 100;
+    text-decoration: underline;
 }
 
 .left-container {
@@ -175,7 +181,6 @@ footer li a {
   #firstname-mobile, #lastname-mobile {
     font-weight: bold;
     text-transform: uppercase;
-    text-decoration: underline;
     font-size: 40px;
   }
 
